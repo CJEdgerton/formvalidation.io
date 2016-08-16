@@ -17,6 +17,9 @@
     height: inherit; 
     padding: 0px;
 }
+.chosen-container.form-control a {
+    border: 0px;
+}
 </style>
 
 <form id="chosenForm" class="form-horizontal">

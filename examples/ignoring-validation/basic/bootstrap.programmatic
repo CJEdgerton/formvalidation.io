@@ -52,7 +52,7 @@ $(document).ready(function() {
                 otherFramework: {
                     validators: {
                         callback: {
-                            message: 'Please specific the framework',
+                            message: 'Please specify the framework',
                             callback: function(value, validator, $field) {
                                 var framework = $('#surveyForm').find('[name="framework"]:checked').val();
                                 return (framework !== 'other') ? true : (value !== '');
